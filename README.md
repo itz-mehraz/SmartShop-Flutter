@@ -1,6 +1,3 @@
-Below is a complete README file template for your project, based on the information you've provided so far.
-
-### README.md
 
 ````markdown
 # Smart Shop - Flutter E-Commerce App
@@ -54,22 +51,22 @@ This app allows users to browse products, add them to the cart, mark them as fav
 
 ## Screenshots
 
-- **Home Screen**
-  ![homepage](assets/Homepage.png)
+- **Home Screen**  
+  ![Homepage](assets/Homepage.png)
 
-- **Login Page**
-  ![login page](assets/login_page.png)
+- **Login Page**  
+  ![Login Page](assets/login_page.png)
 
-- **Favorites Page**
+- **Favorites Page**  
   ![Favorites Page](assets/Favorites_Page.png)
 
-- **Cart Page**
+- **Cart Page**  
   ![Cart Page](assets/Cart_Page.png)
 
-- **Sorting: Price High to Low**
+- **Sorting: Price High to Low**  
   ![Sorting Price high Low](assets/Sorting_Price_high_Low.png)
 
-- **Dark Theme**
+- **Dark Theme**  
   ![Dark Theme](assets/Dark_Theme.png)
 
 ---
@@ -170,18 +167,18 @@ assets/
 
 This project is open-source and available under the [MIT License](LICENSE).
 
-```
+````
 
-### Instructions:
-
-1. Replace the **Screenshots** placeholders (`Homepage.png`, `login_page.png`, etc.) with the correct images. The images must be placed in the `assets/` folder and linked accordingly in the README file.
+### What to Do Next:
+1. **Images**: Ensure that the images (e.g., `Homepage.png`, `login_page.png`, etc.) are placed in the `assets/` folder in your project. The images should be properly linked for the markdown to show them in the GitHub repository.
    
-2. The repository URL should be correct in the `git clone` command.
+2. **Commit the changes**:
+   Once you have updated the README.md with correct image paths, commit the changes and push them to GitHub:
 
-3. Add any additional details in the **Technologies Used** or **Folder Structure** section if needed.
+   ```bash
+   git add README.md
+   git commit -m "Update README with correct image paths"
+   git push origin main
+````
 
-4. If you have additional setup instructions or tools to mention (like Android Studio setup, etc.), add them in the **Installation** section.
-
-Once you have the correct images and any other minor adjustments, you can commit and push this updated README to your GitHub repo.
-```
-# SmartShop-Flutter
+This will make sure the images display properly on GitHub's README page.
