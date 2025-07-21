@@ -1,0 +1,187 @@
+Below is a complete README file template for your project, based on the information you've provided so far.
+
+### README.md
+
+````markdown
+# Smart Shop - Flutter E-Commerce App
+
+## Description
+
+The **Smart Shop** is a mini e-commerce app built using **Flutter**, which incorporates various concepts like **Provider** for state management, **SharedPreferences** for persistence, **Theme toggling** (dark/light), **Navigation & routing**, and a **Basic RESTful API** using **FakeStore API**.
+
+This app allows users to browse products, add them to the cart, mark them as favorites, and manage their theme preferences. The app is built with an emphasis on usability and a clean design.
+
+---
+
+## Features
+
+### 1. **Login/Register Screen**
+- Simple login screen with **TextFormField** for username and password.
+- **Validation** for input fields.
+- Store login status using **SharedPreferences**.
+- Navigate to home screen after successful login.
+
+### 2. **Home Page**
+- Fetches a list of products using the **FakeStore API**.
+- Display each product with **name, price, description, and rating**.
+- Allows users to **add/remove items to the cart**.
+- Users can **favorite** a product and view them on a separate page.
+- **Sorting** functionality for:
+  - Price: Low → High, High → Low
+  - Rating: High → Low
+- **RefreshIndicator** to reload the product list by pulling down.
+
+### 3. **Cart Page**
+- Displays items added to the cart, showing the **total price** and **ratings**.
+- Allows users to **remove items from the cart**.
+
+### 4. **Theme Switch**
+- Option to switch between **Dark/Light Themes**.
+- Saves user preference using **SharedPreferences**.
+
+### 5. **Drawer Navigation**
+- Includes routes to:
+  - **Home**
+  - **Cart**
+  - **Favorites**
+  - **Profile** (Optional)
+  - **Logout**
+
+### 6. **Logout**
+- Clears login data from **SharedPreferences** and navigates back to the login screen.
+
+---
+
+## Screenshots
+
+- **Home Screen**
+  ![homepage](assets/Homepage.png)
+
+- **Login Page**
+  ![login page](assets/login_page.png)
+
+- **Favorites Page**
+  ![Favorites Page](assets/Favorites_Page.png)
+
+- **Cart Page**
+  ![Cart Page](assets/Cart_Page.png)
+
+- **Sorting: Price High to Low**
+  ![Sorting Price high Low](assets/Sorting_Price_high_Low.png)
+
+- **Dark Theme**
+  ![Dark Theme](assets/Dark_Theme.png)
+
+---
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/itz-mehraz/SmartShop-Flutter.git
+````
+
+### 2. Change the directory
+
+```bash
+cd SmartShop-Flutter
+```
+
+### 3. Install dependencies
+
+```bash
+flutter pub get
+```
+
+### 4. Run the app
+
+To run the app on an Android emulator or device, use the following command:
+
+```bash
+flutter run
+```
+
+---
+
+## Technologies Used
+
+* **Flutter**: A framework for building natively compiled applications.
+* **Provider**: For state management.
+* **SharedPreferences**: For storing app preferences and login data.
+* **FakeStore API**: A simple API for product data.
+* **Dart**: Programming language used for app development.
+
+---
+
+## Folder Structure
+
+```plaintext
+lib/
+├── main.dart                  # Entry point of the app
+├── models/
+│   └── product_model.dart     # Product model
+├── providers/
+│   ├── auth_provider.dart     # Auth logic for login/logout
+│   ├── cart_provider.dart     # Cart management
+│   ├── favorites_provider.dart # Favorite products management
+│   ├── product_provider.dart  # Fetching and managing products
+│   └── theme_provider.dart    # Theme management (dark/light)
+├── screens/
+│   ├── auth/
+│   │   └── login_screen.dart  # Login screen
+│   ├── cart/
+│   │   └── cart_screen.dart   # Cart page
+│   ├── favorites/
+│   │   └── favorites_screen.dart # Favorites page
+│   ├── home/
+│   │   └── home_screen.dart   # Home page
+│   └── splash_screen.dart     # Splash screen
+├── services/
+│   └── api_service.dart       # API service for fetching data
+├── utils/
+│   ├── app_routes.dart        # Route management
+│   └── app_theme.dart         # Theme configuration
+├── widgets/
+│   ├── app_drawer.dart        # Drawer widget
+│   └── product_card.dart      # Product display widget
+assets/
+├── Homepage.png               # Screenshot of Home Page
+├── Dark_Theme.png             # Screenshot of Dark Theme
+├── Favorites_Page.png         # Screenshot of Favorites Page
+├── Cart_Page.png              # Screenshot of Cart Page
+├── Sorting_Price_high_Low.png # Screenshot of Sorting (Price High to Low)
+├── login_page.png             # Screenshot of Login Page
+```
+
+---
+
+## Contributing
+
+1. Fork the repository.
+2. Create your branch (`git checkout -b feature-name`).
+3. Commit your changes (`git commit -m 'Add new feature'`).
+4. Push to the branch (`git push origin feature-name`).
+5. Create a new Pull Request.
+
+---
+
+## License
+
+This project is open-source and available under the [MIT License](LICENSE).
+
+```
+
+### Instructions:
+
+1. Replace the **Screenshots** placeholders (`Homepage.png`, `login_page.png`, etc.) with the correct images. The images must be placed in the `assets/` folder and linked accordingly in the README file.
+   
+2. The repository URL should be correct in the `git clone` command.
+
+3. Add any additional details in the **Technologies Used** or **Folder Structure** section if needed.
+
+4. If you have additional setup instructions or tools to mention (like Android Studio setup, etc.), add them in the **Installation** section.
+
+Once you have the correct images and any other minor adjustments, you can commit and push this updated README to your GitHub repo.
+```
+# SmartShop-Flutter
