@@ -49,41 +49,24 @@ This app allows users to browse products, add them to the cart, mark them as fav
 
 ## Screenshots
 
-### Home Screen
+### Home Screen & Login Page
 <p align="center">
   <img src="homepage.png" width="250px" style="margin-right: 15px;"/>
-  <span>Home Screen</span>
+  <img src="login_page.png" width="250px"/>
 </p>
 
-### Login Page
-<p align="center">
-  <img src="login_page.png" width="250px" style="margin-right: 15px;"/>
-  <span>Login Page</span>
-</p>
-
-### Favorites Page
+### Favorites Page & Cart Page
 <p align="center">
   <img src="Favorites_Page.png" width="250px" style="margin-right: 15px;"/>
-  <span>Favorites Page</span>
+  <img src="Cart_Page.png" width="250px"/>
 </p>
 
-### Cart Page
-<p align="center">
-  <img src="Cart_Page.png" width="250px" style="margin-right: 15px;"/>
-  <span>Cart Page</span>
-</p>
-
-### Sorting: Price High to Low
+### Sorting: Price High to Low & Dark Theme
 <p align="center">
   <img src="Sorting_Price_high_Low.png" width="250px" style="margin-right: 15px;"/>
-  <span>Sorting: Price High to Low</span>
+  <img src="Dark_Theme.png" width="250px"/>
 </p>
 
-### Dark Theme
-<p align="center">
-  <img src="Dark_Theme.png" width="250px" style="margin-right: 15px;"/>
-  <span>Dark Theme</span>
-</p>
 
 
 ## Installation
