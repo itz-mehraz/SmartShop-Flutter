@@ -50,7 +50,7 @@ This app allows users to browse products, add them to the cart, mark them as fav
 ## Screenshots
 
 - **Home Screen**  
-  ![Homepage](assets/Homepage.png)
+  ![Homepage](assets/homepage.png)
 
 - **Login Page**  
   ![Login Page](assets/login_page.png)
@@ -68,6 +68,13 @@ This app allows users to browse products, add them to the cart, mark them as fav
   ![Dark Theme](assets/Dark_Theme.png)
 
 ---
+
+## Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/itz-mehraz/SmartShop-Flutter.git
 
 ## Installation
 
