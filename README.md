@@ -2,70 +2,48 @@
 
 ## Description
 
-The **Smart Shop** is a mini e-commerce app built using **Flutter**, which incorporates various concepts like **Provider** for state management, **SharedPreferences** for persistence, **Theme toggling** (dark/light), **Navigation & routing**, and a **Basic RESTful API** using **FakeStore API**.
-
-This app allows users to browse products, add them to the cart, mark them as favorites, and manage their theme preferences. The app is built with an emphasis on usability and a clean design.
+**Smart Shop** is a mini e-commerce app built with **Flutter**, using **Provider** for state management, **SharedPreferences** for persistence, and a **FakeStore API** to fetch products.
 
 ---
 
 ## Features
 
-### 1. **Login/Register Screen**
-- Simple login screen with **TextFormField** for username and password.
-- **Validation** for input fields.
-- Store login status using **SharedPreferences**.
-- Navigate to home screen after successful login.
+- **Login**: User authentication with **TextFormField** validation and **SharedPreferences** for storing login state.
+- **Product Display**: Fetch products using **FakeStore API** and display with price, description, and ratings.
+- **Favorites**: Mark products as favorites and view them on a separate page.
+- **Cart**: Add products to the cart and view total price.
+- **Theme Toggle**: Switch between **Dark** and **Light** themes.
+- **Sorting**: Sort products by **price** (low → high, high → low) and **rating**.
 
-### 2. **Home Page**
-- Fetches a list of products using the **FakeStore API**.
-- Display each product with **name, price, description, and rating**.
-- Allows users to **add/remove items to the cart**.
-- Users can **favorite** a product and view them on a separate page.
-- **Sorting** functionality for:
-  - Price: Low → High, High → Low
-  - Rating: High → Low
-- **RefreshIndicator** to reload the product list by pulling down.
+---
 
-### 3. **Cart Page**
-- Displays items added to the cart, showing the **total price** and **ratings**.
-- Allows users to **remove items from the cart**.
+## Video Demonstration
 
-### 4. **Theme Switch**
-- Option to switch between **Dark/Light Themes**.
-- Saves user preference using **SharedPreferences**.
+Watch the app demo below. (Autoplay enabled)
 
-### 5. **Drawer Navigation**
-- Includes routes to:
-  - **Home**
-  - **Cart**
-  - **Favorites**
-  - **Profile** (Optional)
-  - **Logout**
-
-### 6. **Logout**
-- Clears login data from **SharedPreferences** and navigates back to the login screen.
+[![Smart Shop Demo](https://img.youtube.com/vi/KVBNaOjDvNI/0.jpg)](https://youtu.be/KVBNaOjDvNI?autoplay=1)
 
 ---
 
 ## Screenshots
 
-### Home Screen & Login Page
-<p align="center">
-  <img src="homepage.png" width="250px" style="margin-right: 15px;"/>
-  <img src="login_page.png" width="250px"/>
-</p>
+- **Home Screen**  
+  ![Homepage](assets/Homepage.png)
 
-### Favorites Page & Cart Page
-<p align="center">
-  <img src="Favorites_Page.png" width="250px" style="margin-right: 15px;"/>
-  <img src="Cart_Page.png" width="250px"/>
-</p>
+- **Login Page**  
+  ![Login Page](assets/login_page.png)
 
-### Sorting: Price High to Low & Dark Theme
-<p align="center">
-  <img src="Sorting_Price_high_Low.png" width="250px" style="margin-right: 15px;"/>
-  <img src="Dark_Theme.png" width="250px"/>
-</p>
+- **Favorites Page**  
+  ![Favorites Page](assets/Favorites_Page.png)
+
+- **Cart Page**  
+  ![Cart Page](assets/Cart_Page.png)
+
+- **Sorting: Price High to Low**  
+  ![Sorting Price high Low](assets/Sorting_Price_high_Low.png)
+
+- **Dark Theme**  
+  ![Dark Theme](assets/Dark_Theme.png)
 
 
 
