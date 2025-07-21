@@ -49,25 +49,42 @@ This app allows users to browse products, add them to the cart, mark them as fav
 
 ## Screenshots
 
-- **Home Screen**  
-  <img src="homepage.png" width="800px"/>
+### Home Screen
+<p align="center">
+  <img src="homepage.png" width="250px" style="margin-right: 15px;"/>
+  <span>Home Screen</span>
+</p>
 
-- **Login Page**  
-  <img src="login_page.png" width="800px"/>
+### Login Page
+<p align="center">
+  <img src="login_page.png" width="250px" style="margin-right: 15px;"/>
+  <span>Login Page</span>
+</p>
 
-- **Favorites Page**  
-  <img src="Favorites_Page.png" width="800px"/>
+### Favorites Page
+<p align="center">
+  <img src="Favorites_Page.png" width="250px" style="margin-right: 15px;"/>
+  <span>Favorites Page</span>
+</p>
 
-- **Cart Page**  
-  <img src="Cart_Page.png" width="800px"/>
+### Cart Page
+<p align="center">
+  <img src="Cart_Page.png" width="250px" style="margin-right: 15px;"/>
+  <span>Cart Page</span>
+</p>
 
-- **Sorting: Price High to Low**  
-  <img src="Sorting_Price_high_Low.png" width="800px"/>
+### Sorting: Price High to Low
+<p align="center">
+  <img src="Sorting_Price_high_Low.png" width="250px" style="margin-right: 15px;"/>
+  <span>Sorting: Price High to Low</span>
+</p>
 
-- **Dark Theme**  
-  <img src="Dark_Theme.png" width="800px"/>
+### Dark Theme
+<p align="center">
+  <img src="Dark_Theme.png" width="250px" style="margin-right: 15px;"/>
+  <span>Dark Theme</span>
+</p>
 
----
 
 ## Installation
 
