@@ -1,5 +1,3 @@
-
-````markdown
 # Smart Shop - Flutter E-Commerce App
 
 ## Description
@@ -77,7 +75,7 @@ This app allows users to browse products, add them to the cart, mark them as fav
 
 ```bash
 git clone https://github.com/itz-mehraz/SmartShop-Flutter.git
-````
+
 
 ### 2. Change the directory
 
