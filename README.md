@@ -157,24 +157,8 @@ assets/
 4. Push to the branch (`git push origin feature-name`).
 5. Create a new Pull Request.
 
----
+--
 
 ## License
 
 This project is open-source and available under the [MIT License](LICENSE).
-
-````
-
-### What to Do Next:
-1. **Images**: Ensure that the images (e.g., `Homepage.png`, `login_page.png`, etc.) are placed in the `assets/` folder in your project. The images should be properly linked for the markdown to show them in the GitHub repository.
-   
-2. **Commit the changes**:
-   Once you have updated the README.md with correct image paths, commit the changes and push them to GitHub:
-
-   ```bash
-   git add README.md
-   git commit -m "Update README with correct image paths"
-   git push origin main
-````
-
-This will make sure the images display properly on GitHub's README page.
